@@ -10,6 +10,8 @@
 @implementation CustomUIView
 - (void)logView {
     NSLog(@"123456");
+    NSLog(@"AAAAAAAAAAAA");
+    
 }
 
 @end
