@@ -7,6 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomUIView : UIView
+@interface CustomView : UIView
 - (void)logView;
 @end

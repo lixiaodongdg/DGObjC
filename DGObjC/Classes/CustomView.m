@@ -5,9 +5,9 @@
 //  Created by lxd on 2018/5/7.
 //
 
-#import "CustomUIView.h"
+#import "CustomView.h"
 
-@implementation CustomUIView
+@implementation CustomView
 - (void)logView {
     NSLog(@"123456");
     NSLog(@"AAAAAAAAAAAA");
