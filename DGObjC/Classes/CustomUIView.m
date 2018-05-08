@@ -11,6 +11,7 @@
 - (void)logView {
     NSLog(@"123456");
     NSLog(@"AAAAAAAAAAAA");
+    NSLog(@"BBBBBBBBBBBB");
     
 }
 
