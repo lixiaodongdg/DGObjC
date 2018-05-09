@@ -15,4 +15,8 @@
     NSLog(@"CCCCCCCCCCCC");
 }
 
+- (void)log {
+    NSLog(@"111111111111");
+}
+
 @end

@@ -9,4 +9,5 @@
 
 @interface CustomView : UIView
 - (void)logView;
+- (void)log;
 @end
