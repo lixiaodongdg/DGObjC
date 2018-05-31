@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DGObjC'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'DGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  Test'
 
 # This description is used to generate tags and improve search results.

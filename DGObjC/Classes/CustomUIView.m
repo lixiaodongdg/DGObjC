@@ -11,8 +11,12 @@
 - (void)logView {
     NSLog(@"123456");
     NSLog(@"AAAAAAAAAAAA");
-    NSLog(@"master1111111");
     
+    NSLog(@"master1111111");
+    [self reloadView];
+}
+- (void)reloadView {
+    NSLog(@"Version = 1.0.0");
 }
 
 @end
