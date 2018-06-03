@@ -6,12 +6,9 @@
 //
 
 #import "CustomUIView.h"
-#import "CustomView.h"
 
 @implementation CustomUIView
 - (void)logView {
-    CustomView *view = [[CustomView alloc] init];
-    [view createView];
     NSLog(@"123456");
     NSLog(@"AAAAAAAAAAAA");
     
@@ -19,7 +16,7 @@
     [self reloadView];
 }
 - (void)reloadView {
-    NSLog(@"Version = 1.0.0");
+    NSLog(@"Version = 3.0.1  master");
     
     
     
