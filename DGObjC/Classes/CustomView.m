@@ -16,7 +16,7 @@
 }
 
 - (void)log {
-    NSLog(@"111111111111");
+    NSLog(@"Version = 2.0.0  Branch = dev");
 }
 
 @end
