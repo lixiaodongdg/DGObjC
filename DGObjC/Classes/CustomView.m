@@ -13,10 +13,11 @@
     NSLog(@"AAAAAAAAAAAA");
     NSLog(@"BBBBBBBBBBBB");
     NSLog(@"CCCCCCCCCCCC");
+    NSLog(@"DDDDDDDDDDDD");
 }
 
 - (void)log {
-    NSLog(@"Version = 3.0.0  Branch = dev");
+    NSLog(@"Version = 3.5.0  Branch = dev");
 }
 
 @end
