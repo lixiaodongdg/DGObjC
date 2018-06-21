@@ -18,7 +18,7 @@
 
 - (void)log {
     NSLog(@"Version = 3.5.0  Branch = dev");
-    NSLog(@"dev 添加修改");
+    NSLog(@"dev sss添加修改");
 }
 
 @end
