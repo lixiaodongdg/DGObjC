@@ -21,6 +21,7 @@
     NSLog(@"Version = 3.5.0  Branch = dev");
     NSLog(@"dev sss添加修改");
     NSLog(@"dev 提交");
+    NSLog(@"cececece");
 }
 
 @end
