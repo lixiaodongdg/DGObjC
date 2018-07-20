@@ -10,11 +10,6 @@
 @implementation CustomView
 - (void)logView {
     NSLog(@"AAAAAAAAAAAA");
-    NSLog(@"BBBBBBBBBBBB");
-    NSLog(@"CCCCCCCCCCCC");
-    NSLog(@"DDDDDDDDDDDD");
-    NSLog(@"EEEEEEEEEEEE");
-    NSLog(@"FFFFFFFFFFFF");
 }
 
 - (void)log {
