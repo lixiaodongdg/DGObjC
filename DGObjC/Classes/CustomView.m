@@ -7,13 +7,18 @@
 
 #import "CustomView.h"
 //#import <DGUIKit/CView.h>
-//#import <Masonry/Masonry.h>
+#import <Masonry/Masonry.h>
 
 @implementation CustomView
 - (void)logView {
     NSLog(@"AAAAAAAAAAAA");
     NSLog(@"BBBBBBBBBBBB");
-    
+    UIView *view = [[UIView alloc] init];
+    [self addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self);
+    }];
+    NSLog(@"ZZZZZZZ");
 }
 
 - (void)log {

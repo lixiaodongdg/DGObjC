@@ -320,12 +320,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DGObjC_Example/Pods-DGObjC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DGObjC/DGObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
