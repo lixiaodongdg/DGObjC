@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DGObjC'
-  s.version          = '5.5.0'
+  s.version          = '6.5.0'
   s.summary          = 'DGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  Test'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lixiaodongdg/DGObjC.git', :branch => 'dev' }
 
   s.ios.deployment_target = '8.0'
-#  s.dependency 'Masonry'
+  s.dependency 'Masonry'
 
   s.source_files = 'DGObjC/Classes/**/*'
 
