@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lixiaodongdg/DGObjC.git', :branch => 'dev' }
 
   s.ios.deployment_target = '8.0'
-  s.dependency 'Masonry'
+#  s.dependency 'Masonry'
 
   s.source_files = 'DGObjC/Classes/**/*'
 
