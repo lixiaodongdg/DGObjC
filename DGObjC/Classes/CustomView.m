@@ -16,6 +16,7 @@
     
     NSLog(@"AAAAA");
     NSLog(@"BBBBB");
+    NSLog(@"CCCCC");
 }
 
 - (void)log {
