@@ -15,6 +15,7 @@
     [self addSubview:view];
     
     NSLog(@"AAAAA");
+    NSLog(@"BBBBB");
 }
 
 - (void)log {
