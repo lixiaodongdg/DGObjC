@@ -16,11 +16,13 @@ module Fastlane
         if rmLocalTag
           # 删除本地标签
           # git tag -d 标签名称
+          puts "先走的"
           command << "git tag -d #{tagNum}"
         end
         if rmRemoteTag
           # 删除远程标签
           # git push origin :标签名称
+          puts "我走了"
           command << "git push origin :#{tagNum}"
         end
 
@@ -35,7 +37,7 @@ module Fastlane
       #####################################################
 
       # 可以使用 fastlane action remove_git_tag 来参看详细描述
-      # 
+      #
 
       def self.description
         "删除tag"
@@ -46,10 +48,10 @@ module Fastlane
       end
 
       def self.available_options
-        # Define all options your action supports. 
-        
+        # Define all options your action supports.
+
         # Below a few examples
-        [ 
+        [
           FastlaneCore::ConfigItem.new(key: :tagNum,
                                        description: "输入即将删除的tag",
                                        is_string: true),
@@ -85,13 +87,13 @@ module Fastlane
 
       def self.is_supported?(platform)
         # you can do things like
-        # 
+        #
         #  true
-        # 
+        #
         #  platform == :ios
-        # 
+        #
         #  [:ios, :mac].include?(platform)
-        # 
+        #
 
         platform == :ios
       end
