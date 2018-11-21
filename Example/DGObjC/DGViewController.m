@@ -7,7 +7,6 @@
 //
 
 #import "DGViewController.h"
-#import <DGObjC/CustomUIView.h>
 
 @interface DGViewController ()
 
@@ -18,11 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
-    CustomUIView *customView = [CustomUIView new];
-    [customView logView];
-    UILabel *label = [[UILabel alloc] init];
-    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
