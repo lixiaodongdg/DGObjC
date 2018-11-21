@@ -1,4 +1,3 @@
-
 desc 'LXFUpdatePodTool 航道用来自动化升级维护私有库'
 lane :LXFUpdatePodTool do |options|
 
@@ -39,6 +38,7 @@ push_git_tags
 pod_lib_lint(allow_warnings: true)
 # 因为本地索引库repo的名字是基本上不会去改变的，所以这里直接写死 LXFSpecs
 # podspec的名字需要由外界传入
-# pod_push(path: "#{podspecName}.podspec", repo: "Specs")
+pod_push(path: "#{podspecName}.podspec", repo: "Specs")
+
 
 end
