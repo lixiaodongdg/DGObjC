@@ -1,9 +1,9 @@
-desc 'LXFUpdatePodTool 航道用来自动化升级维护私有库'
-lane :LXFUpdatePodTool do |options|
+desc 'PodRelease 航道用来自动化升级维护私有库'
+lane :PodRelease do |options|
 
 tagNum = options[:tag]
 podspecName = options[:specName]
-
+puts "#{tagNum} 测试数据  #{podspecName}"
 # 航道上需要执行的操作
 # 具体action到 https://docs.fastlane.tools/actions 上面查找
 # 这里的路径以仓库根目录为准
@@ -31,7 +31,7 @@ end
 add_git_tag(
   tag: tagNum
 )
-# push_git_tags
+push_git_tags
 #
 #
 # # 5、验证spec，并提至私有索引库
@@ -42,3 +42,27 @@ add_git_tag(
 #
 
 end
+
+
+
+
+
+# desc '组件发版'
+# lane :PodRelease do |options|
+#   podTag = options[:tag]
+#   podName = options[:specName]
+#   # version = version_get_podspec(path: *.podspec)
+#   # version = version_get_podspec(path: "'#{podName}'.podspec")
+#   version = version_get_podspec(path: "#{podName}.podspec")
+#
+#
+#
+#
+#   # git_pull
+#   # add_git_tag(
+#   #   verssss: version
+#   # )
+#   # puts add_git_tag
+#   # puts version
+#   puts "#{podTag} AAAA  #{podName}"
+# end

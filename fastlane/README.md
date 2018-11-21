@@ -15,11 +15,11 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### LXFUpdatePodTool
+### PodRelease
 ```
-fastlane LXFUpdatePodTool
+fastlane PodRelease
 ```
-LXFUpdatePodTool 航道用来自动化升级维护私有库
+组件发版
 
 ----
 
