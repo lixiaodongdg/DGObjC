@@ -3,7 +3,6 @@ lane :PodRelease do |options|
 
 tagNum = options[:tag]
 podspecName = options[:specName]
-puts "#{tagNum} 测试数据  #{podspecName}"
 # 航道上需要执行的操作
 # 具体action到 https://docs.fastlane.tools/actions 上面查找
 # 这里的路径以仓库根目录为准
@@ -40,6 +39,7 @@ push_git_tags
 # # podspec的名字需要由外界传入
 # pod_push(path: "#{podspecName}.podspec", repo: "Specs")
 #
+puts "#{tagNum} 测试数据  #{podspecName}"
 
 end
 

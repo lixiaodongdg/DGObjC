@@ -19,7 +19,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane PodRelease
 ```
-组件发版
+PodRelease 航道用来自动化升级维护私有库
 
 ----
 
