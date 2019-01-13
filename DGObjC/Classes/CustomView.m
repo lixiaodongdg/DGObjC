@@ -10,7 +10,7 @@
 
 @implementation CustomView
 - (void)logView {
-    
+    NSLog(@"111")
 }
 
 
