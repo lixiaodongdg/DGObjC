@@ -10,6 +10,7 @@
 
 @implementation CustomView
 - (void)logView {
+    NSLog(@"1111");
     
 }
 
