@@ -11,31 +11,24 @@ Pod::Spec.new do |s|
   s.version          = '7.0.0'
   s.summary          = 'DGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  TestDGObjc Test  Test'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
    DGObjc Test  Test DGObjc Test  Test DGObjc Test  Test DGObjc Test  Test DGObjc Test  Test DGObjc Test  Test
-                       DESC
+  DESC
 
   s.homepage         = 'https://github.com/lixiaodongdg/DGObjC'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'lixiaodongdg' => 'lixiaodongdg@163.com' }
-  s.source           = { :git => 'https://github.com/lixiaodongdg/DGObjC.git', :branch => 'dev' }
+  s.source           = { git: 'https://github.com/lixiaodongdg/DGObjC.git', branch: 'dev' }
 
   s.ios.deployment_target = '8.0'
-#  s.dependency 'Masonry'
-
-  s.source_files = 'DGObjC/Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'DGObjC' => ['DGObjC/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_libraries = 'DGObjC/Classes/SDK/**/*.a'
+  s.ios.vendored_frameworks = 'DGObjC/Classes/SDK/**/*.framework'
+  s.libraries = 'z', 'sqlite3.0', 'c++'
+  s.source_files = 'DGObjC/**/*.{h,m}'
 end
