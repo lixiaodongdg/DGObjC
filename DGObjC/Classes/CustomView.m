@@ -12,6 +12,8 @@
 - (void)logView {
     NSLog(@"1111");
     NSLog(@"222");
+    NSLog(@"3333");
+    NSLog(@"4444");
 }
 
 
