@@ -31,4 +31,12 @@ Pod::Spec.new do |s|
   # s.ios.vendored_frameworks = 'DGObjC/SDK/**/*.framework'
   s.libraries = 'z', 'sqlite3.0', 'c++'
   s.source_files = 'DGObjC/**/*.{h,m}'
+  s.source_files = 'DGObjC/Classes/**/*'
+
+  # s.resource_bundles = {
+  #   'DGObjC' => ['DGObjC/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
 end
