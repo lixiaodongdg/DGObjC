@@ -27,16 +27,8 @@ Pod::Spec.new do |s|
   s.source           = { git: 'https://github.com/lixiaodongdg/DGObjC.git', branch: 'dev' }
 
   s.ios.deployment_target = '8.0'
-  # s.vendored_libraries = 'DGObjC/SDK/**/*.a'
-  # s.ios.vendored_frameworks = 'DGObjC/SDK/**/*.framework'
+  s.vendored_libraries = 'DGObjC/SDK/**/*.a'
+  s.ios.vendored_frameworks = 'DGObjC/SDK/**/*.framework'
   s.libraries = 'z', 'sqlite3.0', 'c++'
   s.source_files = 'DGObjC/**/*.{h,m}'
-  s.source_files = 'DGObjC/Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'DGObjC' => ['DGObjC/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
 end
